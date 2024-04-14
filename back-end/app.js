@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
+require('dotenv').config({ path: './back-end/.env' });
 const { openDb, createDb, dbConnections, closeDb } = require('./db');
 
 function formattedDateTime() {
@@ -51,6 +52,7 @@ app.get('/', (req, res) => {
 // Start the server and listen for connections on the specified port
 app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
+    console.log(process.env.abc);
 });
 
 // Close DB connection when the app is terminated
