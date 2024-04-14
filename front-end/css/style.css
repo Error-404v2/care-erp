@@ -1,0 +1,60 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    min-height: 10vh;
+}
+footer{
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    min-height: 5vh;
+}
+main{
+    min-height: 77.6vh;
+    display: flex;
+}
+#patients{
+    background-color: #f4f4f4;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: #333 solid 1px;
+}
+#nurses{
+    background-color: #f4f4f4;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: #333 solid 1px;
+}
+.stylish-button {
+    background: #FF4742;
+    color: white;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 14px;
+}
+.stylish-button:hover,
+.stylish-button:active {
+  background-color: initial;
+  color: #FF4742;
+}
+.stylish-button:active {
+  opacity: .5;
+}

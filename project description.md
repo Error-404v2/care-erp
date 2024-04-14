@@ -15,11 +15,11 @@
 	- search (id,name) about patient -> (profile page) (field on page 2.2)
 		- get info (page 3.2)
 		- change info (page 3.2)
-		- assign nurse (id) 
-			-> make **noNurse** = null (page 3.2)
+		- assign nurse (id)   
+			-> make **noNurse** = null (page 3.2)  
 			-> add to the nurse record (entry to (nurse)patients id array)
-		- change nurse (id)
-			-> delete from the nurse record (entry of (nurse)patients id array)
+		- change nurse (id)  
+			-> delete from the nurse record (entry of (nurse)patients id array)  
 			-> add to the nurse record (entry to (nurse)patients id array)
 	- see on the top the (how long a nurse has been unassigned) (page 2.2)
 		- patient has no nurse
@@ -34,8 +34,8 @@
 		- patients - > empty array 
 	- search (id,name) about nurse -> (profile page) (field on page 2.1)
 		- get info (page 3.1)
-		- assign to one or more patients (id) 
-			-> make **notWorkingSince** = null (page 3.1)
+		- assign to one or more patients (id)   
+			-> make **notWorkingSince** = null (page 3.1)  
 			-> add to patient record (assignedNurse)
 		- change info (page 3.1)
 	- see on the top nurses (how long a nurse has been unassigned) (page 2.1) showing the following
@@ -44,14 +44,14 @@
 		- remove all assigned patients from a nurse (nurse side)
 		
 ### to do
-1- intro mern
-2- drafted the project docs
-3- setting up the app (2 day | 1/4/2024)
-	- setup node app
-	- database schema
-	- db modules (system models (system users))
-4- implement the app logic (3 day | 4/4/2024)
-	- routes
-	- implement the route logic
+1. intro MERN  
+2. drafted the project docs  
+3. setting up the app (2 day | 1/4/2024)  
+	- setup node app  
+	- database schema  
+	- db modules (system models (system users))  
+4. implement the app logic (3 day | 4/4/2024)  
+	- routes  
+	- implement the route logic  
 
 cmd /c del /s /a:h desktop.ini
